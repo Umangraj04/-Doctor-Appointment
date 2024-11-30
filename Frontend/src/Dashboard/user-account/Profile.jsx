@@ -100,7 +100,6 @@ const Profile = ({user}) => {
       />
        </div>
       
-
        <div className='mb-5'>
       <input type='text' 
       placeholder='Blood Type'
