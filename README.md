@@ -14,6 +14,7 @@ Doctors can manage their schedules, view patient information.
 - Back-end: Express.js, Node.js
 - Database: MongoDB
 ## Installation and Setup:
+- Clone the repository: git clone https://github.com/Umangraj04/Doctor-Appointment.git
 - Install dependencies: npm install or yarn install.
 - Create a .env file in the root directory and set environment variables for database connection, authentication, and other configurations.
 - Start the development server: npm run dev or npm run start-dev.
