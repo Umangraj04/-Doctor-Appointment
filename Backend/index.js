@@ -17,25 +17,11 @@ const app = express();
 const port = process.env.PORT || 8000;
 
 const corsOptions = {
-     origin: "https://doctor-appointment-frontend-nh97.onrender.com", // Replace with your frontend URL
-    methods: ['GET', 'POST', 'PUT', 'DELETE'], // Specify allowed methods
-    credentials: true, // If you use cookies or authentication
+     origin: true,
     
 };
 
-app.get('/doctors', (req, res) => {
-    res.json({ message: 'Doctors list retrieved successfully' });
-});
-app.post('/auth/register', (req, res) => {
-    const { username, password } = req.body;
 
-    // Example logic for user registration
-    if (!username || !password) {
-        return res.status(400).json({ error: 'Username and password are required' });
-    }
-
-    res.status(201).json({ message: 'User registered successfully' });
-});
 
 
 app.get("/",(req,res) =>{
