@@ -23,7 +23,9 @@ const corsOptions = {
     
 };
 
-
+app.get('/doctors', (req, res) => {
+    res.json({ message: 'Doctors list retrieved successfully' });
+});
 
 
 app.get("/",(req,res) =>{
