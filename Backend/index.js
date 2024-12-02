@@ -18,11 +18,15 @@ const port = process.env.PORT || 8000;
 
 const corsOptions = {
     origin: true,
+   
+     
 };
+ 
+
 
 app.get("/",(req,res) =>{
     res.send("Api is working");
-});
+  });
 
 // database connection 
  mongoose.set('strictQuery',false)
