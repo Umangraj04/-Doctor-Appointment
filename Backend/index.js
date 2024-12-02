@@ -17,7 +17,9 @@ const app = express();
 const port = process.env.PORT || 8000;
 
 const corsOptions = {
-    origin: true,
+    origin: ["https://doctor-appointment-xbis.vercel.app"],
+    methods:["POST","GET"],
+    credentials:true
 };
 
 app.get("/",(req,res) =>{
