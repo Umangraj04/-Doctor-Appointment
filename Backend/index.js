@@ -17,7 +17,9 @@ const app = express();
 const port = process.env.PORT || 8000;
 
 const corsOptions = {
-    origin: true,
+     origin: 'https://doctor-appointment-frontend-nh97.onrender.com', // Replace with your frontend URL
+    methods: ['GET', 'POST', 'PUT', 'DELETE'], // Specify allowed methods
+    credentials: true, // If you use cookies or authentication
     
 };
 
