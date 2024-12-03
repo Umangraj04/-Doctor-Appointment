@@ -22,8 +22,6 @@ const corsOptions = {
 };
 
 
-
-
 app.get("/",(req,res) =>{
     res.send("Api is working");
   });
