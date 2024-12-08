@@ -19,6 +19,6 @@ Doctors can manage their schedules, view patient information.
 - Create a .env file in the root directory and set environment variables for database connection, authentication, and other configurations.
 - Start the development server: npm run dev or npm run start-dev.
 ## Usage:
-- Open the application in your web browser (usually at http://localhost:5000).
+- Open the application in your web browser (usually at (http://localhost:5173).
 - Register as a patient or doctor (or use existing accounts if available).
 - Explore the features and functionality as needed.
