@@ -34,7 +34,7 @@ app.get("/",(req,res) =>{
     console.log('MongoDB database is connected')
     }
     catch(err){
-     console.log('MongoDB database is connection failed')
+     console.log(err);
     }
  }
 
